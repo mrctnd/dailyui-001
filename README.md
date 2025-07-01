@@ -4,15 +4,24 @@
 
 Create a sign up page, modal, form, or app screen related to signing up for something. It could be for a volunteer event, contest registration, a giveaway, or anything you can image.
 
+---
+## 📸 Screenshot
+
+![Credit Card Page Preview](./images/screenshot.png)
+
 ## Project Structure and File Descriptions
+
+```
 
 index.html
 README.md
 images/
-    example.webp
-    form-image.jpg
-    icon-apple.svg
-    icon-google.svg
+    card-image.png
+    card-with-paper.png
+    example.png
+    screenshot.png
+scripts/
+    scripts.js
 styles/
     styles.css
 ```
