@@ -1,16 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sign Up Page</title>
-  <link rel="stylesheet" href="styles/styles.css">
-</head>
-<body>
-  <form action="">
-    
-  </form>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="container">
+        <div class="image-container">
+          <img
+            src="images/form-image.jpg"
+            alt="purple mountain landscape illustration"
+            width="350"
+            style="border-radius: 1.2rem"
+          />
+        </div>
+        <div class="form-container">
+          <div class="header">
+            <h1>Create an account</h1>
+            <p>
+              Already have an account?
+              <a href="#"><u style="color: #4c2873">Log in</u></a>
+            </p>
+          </div>
+          <form action="#">
+            <div class="sign-up">
+              <div class="name-row">
+                <input class="first-name" type="text" placeholder="First Name" required />
+                <input class="last-name" type="text" placeholder="Last Name" required />
+              </div>
 
-  <script src="scripts/scripts.js"></script>
-</body>
+              <input class="email" type="email" placeholder="Email" required />
+
+              <input class="password" type="text" placeholder="Enter your password" required />
+            </div>
+
+            <div class="checkbox">
+              <input type="checkbox" id="agree" />
+              <label for="agree" class="agree">
+                I agree to the
+                <a href="#"><u style="color: #4c2873">terms & conditions</u></a>
+              </label>
+            </div>
+
+            <button class="create-account" type="submit">Create account</button>
+
+            <div class="divider">
+              <div class="line"></div>
+              <span>Or register with</span>
+              <div class="line"></div>
+            </div>
+
+            <div class="social-buttons">
+              <button class="login-with-google">
+                <img
+                  src="images/icon-google.svg"
+                  alt="google icon"
+                  width="25"
+                />Google
+              </button>
+              <button class="login-with-apple">
+                <img
+                  src="images/icon-apple.svg"
+                  alt="apple icon"
+                  width="25"
+                />Apple
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="scripts/scripts.js"></script>
+  </body>
 </html>
