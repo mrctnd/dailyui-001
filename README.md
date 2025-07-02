@@ -7,7 +7,7 @@ Create a sign up page, modal, form, or app screen related to signing up for some
 ---
 ## 📸 Screenshot
 
-![Credit Card Page Preview](./images/screenshot.png)
+![Sign Up Page Preview](./images/screenshot.png)
 
 ## Project Structure and File Descriptions
 
